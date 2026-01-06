@@ -48,3 +48,4 @@ Each PAS should have the following parts:
 - [PAS 9 - Onboard Paras Slots](https://github.com/paseo-network/paseo-action-submission/blob/fix-44-pas/pas/PAS-9-Onboard-paras-slots.md)
 - [PAS 10 - Onboard Paras Coretime](./pas/PAS-10-Onboard-paras-coretime.md)
 - [PAS 11 - Paseo Node Providers Requirements](./pas/PAS-11-Providers-Requirements.md)
+- [PAS-12 - Paseo QA Environment](./pas/PAS-12-Paseo-QA-Environment.md)
