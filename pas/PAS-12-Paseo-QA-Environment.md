@@ -30,9 +30,10 @@ After evaluation with the broader community, it was determined that exposing Kus
 ### Release Pipeline Position
 
 Paseo occupies the QA position in the Polkadot release pipeline:
+
 ```
 Westend          →    Paseo           →    Kusama/Polkadot
-(Development)         (QA - 14 days)       (Production)
+(Development)         (QA - 10 days)       (Production)
 
 Parity Testnet        Polkadot Testnet     Mainnets
 Unstable              Stable               Production
@@ -42,15 +43,15 @@ Paseo runtime follows Polkadot runtime and receives release candidates before Ku
 
 ### Release Trigger
 
-A new Paseo release cycle begins only from a Polkadot Fellowship release:
+A new Paseo release cycle begins from a Polkadot Fellowship release:
 
-1. A Fellowship member tags the Paseo Core Team members in the official Fellowship Element channel
-2. The tag must confirm the release is ready for QA testing
-3. Upon acknowledgment, the 14-day testing window begins
+1. On a weekly basis, the Paseo Core Team integrates changes from the Polkadot Fellowship master branch to stay ahead and reduce upgrade turnaround time
+2. When the Fellowship specifically requires testing and a status report, a Fellowship member tags the Paseo Core Team in the official Fellowship Element channel
+3. Upon acknowledgment, the formal testing window begins
 
 ### Testing Window
 
-The Paseo Core Team has a maximum of 14 days to complete the QA process. The testing window includes:
+The Paseo Core Team requires a minimum of 10 working days to complete the QA process. Due to the weekly integration of changes from the Fellowship master branch, the actual turnaround time may be shorter.
 
 #### Testing Environment
 
@@ -66,7 +67,7 @@ The Paseo Core Team has a maximum of 14 days to complete the QA process. The tes
 
 #### Validation Checkpoints
 
-The following must be verified post-upgrade on TOT before proceeding to main Paseo:
+The following are verified post-upgrade on TOT before proceeding to main Paseo:
 
 - Successful epoch change
 - Successful era change
@@ -75,7 +76,7 @@ The following must be verified post-upgrade on TOT before proceeding to main Pas
 
 #### Team Involvement
 
-- **Primary**: Paseo Core Team (R0GUE, Portico, Zondax)
+- **Primary**: Paseo Core Team (R0GUE, Zondax)
 - **As Required**: Related teams may join if the release specifically requires their participation
 
 ### Result Notification
@@ -128,8 +129,12 @@ All communication occurs via Element:
 
 ## Appendix
 
-### A.1 Communication Channels
+### A.1 Testing Tools Reference
+
+- **Chopsticks**: https://github.com/AcalaNetwork/chopsticks
+- **try-runtime-cli**: https://github.com/paritytech/try-runtime-cli
+
+### A.2 Communication Channels
 
 - **Fellowship Element Channel**: https://matrix.to/#/#fellowship-members:parity.io
 - **Paseo Support Channel**: https://matrix.to/#/#paseo-testnet-support:parity.io
-
