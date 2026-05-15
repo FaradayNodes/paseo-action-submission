@@ -105,11 +105,10 @@ All communication occurs via Element:
 
 | Event | Channel | Responsible Party |
 |-------|---------|-------------------|
-| Release Ready Signal | Fellowship Channel | Fellowship Member |
-| Acknowledgment | Fellowship Channel | Paseo Core Team |
-| Status Updates | Fellowship Channel | Paseo Core Team |
-| Final Report | Fellowship Channel | Paseo Core Team |
-| Failure Notification | Fellowship Channel | Paseo Core Team |
+| Release Ready Signal | Fellowship Channel/Auto Detection of new release | Fellowship Member |
+| Status Updates | Fellowship Channel / Paseo Announucements / Polkadot Forum | Paseo Core Team |
+| Final Report | Fellowship Channel / Paseo Announucements / Polkadot Foruml | Paseo Core Team |
+| Failure Notification | Fellowship Channel / Paseo Announucements / Polkadot Forum | Paseo Core Team |
 
 ## Roles and Responsibilities
 
