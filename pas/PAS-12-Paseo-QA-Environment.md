@@ -19,7 +19,7 @@ Paseo is officially designated as the Polkadot QA (Quality Assurance) environmen
 
 ## Abstract
 
-This PAS establishes Paseo's role as the QA environment in the Polkadot release pipeline. Runtime releases flow from Westend (Parity's development testnet) to Paseo (QA environment) and, upon successful validation, proceed to Kusama and Polkadot mainnets. The Paseo Core Team is responsible for executing a testing process within a 14-day window and reporting results to the Polkadot Fellowship.
+This PAS establishes Paseo's role as the QA environment in the Polkadot release pipeline. Runtime releases flow from Westend (Parity's development testnet) to Paseo (QA environment) and, upon successful validation, proceed to Kusama and Polkadot mainnets. The Paseo Core Team is responsible for executing a testing process within a 7 business days window and reporting results to Polkadot community.
 
 ## Motivation
 
@@ -33,7 +33,7 @@ Paseo occupies the QA position in the Polkadot release pipeline:
 
 ```
 Westend          →    Paseo           →    Kusama/Polkadot
-(Development)         (QA - 10 days)       (Production)
+(Development)         (QA - 7 business days)       (Production)
 
 Parity Testnet        Polkadot Testnet     Mainnets
 Unstable              Stable               Production
@@ -46,12 +46,12 @@ Paseo runtime follows Polkadot runtime and receives release candidates before Ku
 A new Paseo release cycle begins from a Polkadot Fellowship release:
 
 1. On a weekly basis, the Paseo Core Team integrates changes from the Polkadot Fellowship master branch to stay ahead and reduce upgrade turnaround time
-2. When the Fellowship specifically requires testing and a status report, a Fellowship member tags the Paseo Core Team in the official Fellowship Element channel
+2. When the Fellowship specifically requires testing and a status report, a Fellowship member tags the Paseo Core Team in the official Fellowship Element channel.  If not required, the team will commence with upgrade process to described in next document's sections.
 3. Upon acknowledgment, the formal testing window begins
 
 ### Testing Window
 
-The Paseo Core Team requires a minimum of 10 working days to complete the QA process. Due to the weekly integration of changes from the Fellowship master branch, the actual turnaround time may be shorter.
+The Paseo Core Team requires a minimum of 7 working days to complete the QA process. Due to the weekly integration of changes from the Fellowship master branch, the actual turnaround time may be shorter.
 
 #### Testing Environment
 
@@ -64,6 +64,7 @@ The Paseo Core Team requires a minimum of 10 working days to complete the QA pro
 | Runtime Upgrades | Relay chain, AssetHub, Coretime | Chopsticks, try-runtime-cli |
 | XCM Calls | Cross-chain messaging validation | Chopsticks |
 | State Migrations | Migration correctness verification | try-runtime-cli |
+| Weights | Weights creation according to Paseo Hardware specs | commands-bot |
 
 #### Validation Checkpoints
 
@@ -76,7 +77,7 @@ The following are verified post-upgrade on TOT before proceeding to main Paseo:
 
 #### Team Involvement
 
-- **Primary**: Paseo Core Team (R0GUE, Zondax)
+- **Primary**: Paseo Core Team (R0GUE, PorticoDotLabs Zondax)
 - **As Required**: Related teams may join if the release specifically requires their participation
 
 ### Result Notification
