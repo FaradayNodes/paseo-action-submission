@@ -2,9 +2,9 @@ identity:
   display: FARADAY
   email: hello@faradaynodes.com
   website: https://faradaynodes.com
-  twitter: @FaradayNodes
+  twitter: "@FaradayNodes"
   discord: faradaynodes
-  riot: @faradaynodes:matrix.org
+  riot: "@faradaynodes:matrix.org"
 
 accounts:
   0:
