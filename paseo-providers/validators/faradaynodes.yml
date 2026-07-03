@@ -1,0 +1,17 @@
+identity:
+  display: FARADAY
+  email: hello@faradaynodes.com
+  website: https://faradaynodes.com
+  twitter: @FaradayNodes
+  discord: faradaynodes
+  riot: @faradaynodes:matrix.org
+
+accounts:
+  0:
+    identity:
+      display: FARADAY/01
+    stash: 1jChkUthZcpNvXxNFPBYKsnZ6gPNTpARo4ATdTgMUHEW41f
+  1:
+    identity:
+      display: FARADAY/02
+    stash: 14yzXdaM3kHdYo4WtrgSHY7PDBRVBSbW9SkZ8hoM6SRMLfGv
