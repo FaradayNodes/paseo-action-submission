@@ -1,0 +1,15 @@
+identity:
+  display: BestValidator
+  email: hello@bestvalidator.com
+  website: https://bestvalidator.com
+  twitter: "@mosonyi_zoltan"
+  discord: mosonyi
+  riot: "@mosonyi:matrix.org"
+
+accounts:
+- identity:
+    display: BESTVALIDATOR/PAS1
+  stash: 16M4ieWHzsboT4WJq1W16UjYgHKHd8mrkxetyU371cSD5tvV
+- identity:
+    display: BESTVALIDATOR/PAS2
+  stash: 15Fs6jjYdYK1CFVTRnMtUh6bnjKKSdx3WVaipWeVvFW4B6Xa

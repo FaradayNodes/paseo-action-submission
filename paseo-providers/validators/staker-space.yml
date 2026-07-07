@@ -1,0 +1,20 @@
+identity:
+  display: Staker Space
+  email: hello@staker.space
+  website: https://staker.space
+  twitter: "@StakerSpace"
+  discord: sustakerspace
+  riot: "@suley:matrix.org"
+
+accounts:
+  - identity:
+      display: Staker Space/01
+    stash: 1128LMvaKYP367kgJz5Y4bA68QgUJwLMz14nWLeS36Ts4WZU
+
+  - identity:
+      display: Staker Space/02
+    stash: 138g1op1nPsZ3mL6SdDu9KKP41pZxAm6oUA96A7AQWLAQ5gu
+
+  - identity:
+      display: Staker Space/03
+    stash: 12N3gvs6SMvQfQN9r6rr18VV6VVEp781uQy1uHNmSn9GTNts
