@@ -1,0 +1,15 @@
+identity:
+  display: FARADAY
+  email: hello@faradaynodes.com
+  website: https://faradaynodes.com
+  twitter: "@FaradayNodes"
+  discord: faradaynodes
+  riot: "@faradaynodes:matrix.org"
+
+system_chain: Bulletin
+
+accounts:
+    identity:
+    display: FARADAY
+    account_id: 1CC4cA5DgBNpWbPBqzLW2mh18YacnR5y7wfFLX3bZHrDaRJ
+    aura_id: 0x74be29347a15988f9e2e35f9eb91b82aedd5ef2851e3c0b3b298886a71035b65
